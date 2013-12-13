@@ -51,7 +51,7 @@ class modVkGalleryTreeViewHelper {
 					"</label>";
 			}
 			if (count($this->getChilds($list[$i]->id))>0) {
-				$result .= "<ul>";
+				$result .= "<ul id='mod_vkgallery_treeview-".$list[$i]->id."'>";
 				$this->buildTree($result, $list[$i]->id);
 				$result .= "</ul>";
 			}
