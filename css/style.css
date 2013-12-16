@@ -2,14 +2,19 @@
 	list-style-type: none;
 }
 
-.mod_vkgallery_treeview  label:hover {
-	border-right:2px solid black;
-}
-
 .mod_vkgallery_treeview  a {
 	display: block;
 }
 
-.mod_vkgallery_treeview  a:hover {
-	border-right:2px solid black;
+#mod_vkgallery_treeview-0 {
+	margin: 0px;
+}
+
+.mod_vkgallery_treeview label:hover {
+  background-color:#eeeeee; 
+}
+
+.mod_vkgallery_treeview a:hover {
+  background-color:#eeeeee; 
+  text-decoration:none;
 }
